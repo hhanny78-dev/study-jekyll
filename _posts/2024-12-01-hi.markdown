@@ -1,0 +1,18 @@
+---
+layout: post
+title: "a dddd Jekyll!"
+date: 2024-12-03 19:39:12 +0900
+categories: jekyll update
+show_sidebar: sidebar
+---
+
+{{ page.title | capitalize}}
+
+{{ page.date }} date?.
+
+{% if page.show_sidebar %}
+
+  <div class="sidebar">
+     여기 사이드바
+  </div>
+{% endif %}
